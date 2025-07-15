@@ -2,7 +2,7 @@
 pragma solidity ^0.8.19;
 
 import "forge-std/Script.sol";
-import "../src/HelloWorld.sol";
+import {HelloWorld} from "../src/HelloWorld.sol";
 
 contract DeployScript is Script {
     function run() external {
@@ -15,4 +15,3 @@ contract DeployScript is Script {
         vm.stopBroadcast();
     }
 }
-
