@@ -30,7 +30,7 @@ jobs:
           forge --version
 
       - name: Install forge-std
-        run: forge install foundry-rs/forge-std --no-commit
+        run: forge install foundry-rs/forge-std
 
       - name: Install dependencies
         run: forge install
